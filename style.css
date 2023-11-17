@@ -38,3 +38,43 @@ active,.menu-bar ul li:hover
     background:#5d66e4;
     border-radius: 3px;
 }
+.h1
+{
+    margin-left: 120px;
+    margin-top: 15px;
+    color: chocolate;
+}
+.menu-bar .fa
+{
+margin-right: 5px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(102, 158, 102);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 120px;
+    padding: 10x;
+    border-bottom: 1px #fff;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
